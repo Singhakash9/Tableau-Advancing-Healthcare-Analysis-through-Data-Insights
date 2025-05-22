@@ -10,6 +10,8 @@ This project aims to harness Tableau's powerful visualization and analytical cap
 - Enhance decision-making
 - Uncover trends in treatment, cost, and patient recovery
 
+  ![image](https://github.com/user-attachments/assets/18428931-9fd4-4689-a84e-6c46b292f762)
+
 ---
 
 ## Data Sources
@@ -74,14 +76,26 @@ Projected diagnosis-wise admissions for next 6 months.
 1. **Comprehensive Healthcare Overview**  
    _TB Healthcare Dashboard_
 
+![image](https://github.com/user-attachments/assets/7383759b-690b-42ce-ae59-1259f8215295)
+
+
 2. **Hospital Performance Comparison**  
    _TB Hospital Comparison Performance Dashboard_
+
+   ![image](https://github.com/user-attachments/assets/c4b8c348-3952-4e07-9504-030b190f6de5)
+
 
 3. **Time-Based Admission Analysis**  
    _TB Health Care Trend Dashboard_
 
+   ![image](https://github.com/user-attachments/assets/0030d7ed-aaa0-4aa6-8d64-d3e51ba17362)
+
+
 4. **Treatment Effectiveness Dashboard**  
    _TB Treatment Effectiveness Dashboard_
+
+   ![image](https://github.com/user-attachments/assets/308431f4-0897-49c0-a39d-3a323a16e616)
+
 
 ---
 
@@ -121,8 +135,8 @@ This project demonstrates the impact of data visualization in the healthcare sec
 
 ## Links
 
-- ** View Dashboard**: [Tableau Public](https://public.tableau.com/views/Sahil_Kishor_Tableau_Project_Healthcare_Analysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- ** LinkedIn**: https://www.linkedin.com/in/akash-singh-979745147
-- ** Email**: akash.singh@georgebrown.ca
+- **View Dashboard**: [Tableau Public](https://public.tableau.com/app/profile/akash.singh6408/viz/Akash_Singh_Tableau_Project/Dashboard2?publish=yes)
+- **LinkedIn**: https://www.linkedin.com/in/akash-singh-979745147
+- **Email**: akash.singh@georgebrown.ca
 
 ---
