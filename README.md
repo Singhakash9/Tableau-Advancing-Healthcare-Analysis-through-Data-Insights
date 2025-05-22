@@ -1,72 +1,127 @@
-<h1 align="center" style="color:white;">🩺 Healthcare Analysis Using Tableau</h1>
+# 🏥 Healthcare Analysis Using Tableau
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Tool-Tableau-blueviolet?style=flat-square" alt="Tableau Badge"/>
-  <br><b>Author:</b> <a href="https://www.linkedin.com/in/sahil-kishor" style="color:cyan;">Sahil Kishor</a> | 📧 kishorsahil555@gmail.com
-</p>
-
----
-
-## 🌑 Project Overview
-
-> _"Turning raw healthcare data into meaningful, interactive stories using Tableau's visualization power."_
-
-This project explores how data-driven decision-making in healthcare can be enhanced through smart visuals and analytics.
+![Tableau](https://img.shields.io/badge/Built%20With-Tableau-blue?style=flat-square)  
+📊 **Author**: [Sahil Kishor](https://www.linkedin.com/in/sahil-kishor)  
+📧 **Contact**: kishorsahil555@gmail.com  
+🔗 **View Dashboard**: [Tableau Public Link](https://public.tableau.com/views/Sahil_Kishor_Tableau_Project_Healthcare_Analysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
-## 🗃️ Data Sources
+## 🎯 Project Objective
 
-### 🧬 `HealthcareDataset1`
-- `PatientID` | `PatientName` | `Age` | `Gender` | `BloodType`
-- `Diagnosis` | `Treatment` | `AdmissionDate` | `DischargeDate`
-- `TotalBill` | `Full Prescription Details`
+This project aims to harness Tableau's powerful visualization and analytical capabilities to transform raw healthcare datasets into meaningful insights. Through calculated fields, data modeling, and advanced visual storytelling, the goal is to:
 
-### 🏥 `HealthcareDataset2`
-- `PatientID` | `Hospital` | `DoctorName` | `RoomNumber`
-- `DailyCost` | `TreatmentType` | `RecoveryRating`
+- Optimize healthcare operations
+- Enhance decision-making
+- Uncover trends in treatment, cost, and patient recovery
 
 ---
 
-## 🧠 Core Analyses & Features
+## 📁 Data Sources
 
-🧩 **Stay Duration vs Recovery Rating**  
-🔎 **Clustering Patients by Treatment**  
-💊 **Prescription Trends by Diagnosis**  
-🏥 **Hospital Efficiency Metrics**  
-📆 **Admission Trends with Date Parsing**  
-🎛️ **Dynamic Filters (Age, Gender, Blood Type)**  
-📈 **Time-Series Forecasting for Admissions**
+### **1. HealthcareDataset1**
+Contains patient-level information:
+- `PatientID` (Primary Key)
+- `PatientName`, `Age`, `Gender`, `BloodType`
+- `Diagnosis`, `Treatment`
+- `AdmissionDate`, `DischargeDate`
+- `TotalBill`, `Full Prescription Details`
 
----
-
-## 🧭 Dashboards
-
-| Dashboard Name | Description |
-|----------------|-------------|
-| 🧮 **Comprehensive Healthcare** | Summary of key metrics and filters |
-| 🏥 **Hospital Performance** | Comparison of hospital costs and ratings |
-| 📊 **Time-Based Trends** | Monthly/weekly admission patterns |
-| 🧪 **Treatment Effectiveness** | Treatment type vs recovery success |
+### **2. HealthcareDataset2**
+Additional treatment and hospital details:
+- `PatientID` (Foreign Key)
+- `Hospital`, `DoctorName`, `RoomNumber`
+- `DailyCost`, `TreatmentType`, `RecoveryRating`
 
 ---
 
-## 🔍 Key Findings
+## 📌 Key Analyses & Features
 
-- 🧑‍🤝‍🧑 3-Year Patient Count: 337 Females | 329 Males | 334 Other
-- 📈 Diabetes Recovery is improving steadily
-- 🔮 Forecasts suggest spikes in Flu & Diabetes admissions
-- 🧑‍⚕️ Top Doctor: **Dr. David Moore**
-- 💸 Most Expensive: Cedar Senai Clinic
-- 🏆 Highest Rated: Maple Groove Health Facility
-- 🧠 Mental therapy popularity is rising year over year
+✅ **Stay Duration vs Recovery Rating**  
+Explored correlation to measure treatment success.
+
+✅ **Patient Clustering**  
+Grouped patients by treatment and recovery patterns.
+
+✅ **Prescription Intelligence**  
+Identified most prescribed medications by diagnosis.
+
+✅ **Hospital Efficiency Metrics**  
+Analyzed stay duration, recovery rating, and costs.
+
+✅ **Admission Trends**  
+Custom date parsing to reveal busiest times.
+
+✅ **Dynamic Filtering**  
+Filter patients by gender, age, and blood type.
+
+✅ **Time-Series Forecasting**  
+Projected diagnosis-wise admissions for next 6 months.
 
 ---
 
-## 🧾 Dashboard Preview
+## 📊 Dashboards Developed
 
-> _Use screenshots with dark Tableau theme (Night Mode)_
+1. **Comprehensive Healthcare Overview**  
+   _TB Healthcare Dashboard_
+
+2. **Hospital Performance Comparison**  
+   _TB Hospital Comparison Performance Dashboard_
+
+3. **Time-Based Admission Analysis**  
+   _TB Health Care Trend Dashboard_
+
+4. **Treatment Effectiveness Dashboard**  
+   _TB Treatment Effectiveness Dashboard_
+
+---
+
+## 💡 Key Insights
+
+- 👩‍⚕️ **Patient Gender Distribution**:  
+  337 females, 329 males, 334 others over 3 years.
+
+- 📈 **Diabetes Recovery**:  
+  Notable improvements in recovery ratings.
+
+- ⏳ **Admission Forecast**:  
+  Time-series models predict diagnosis trends.
+
+- 🧑‍⚕️ **Top Doctor**:  
+  Dr. David Moore treated the highest number of patients.
+
+- 💰 **Costliest Hospital**:  
+  Cedar Senai Clinic, followed by Green Valley Medical Center.
+
+- 🌟 **Best Recovery Facility**:  
+  Maple Groove Health Facility ranks #1.
+
+- 🔬 **Specialist Highlight**:  
+  Dr. Elizabeth Davis (Cedar Senai) excels in diabetes treatment.
+
+- 🧠 **Mental Therapy Trends**:  
+  Increasing patient preference over the years.
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates the impact of data visualization in the healthcare sector. From understanding patient behavior to evaluating hospital performance, Tableau dashboards offer a user-friendly interface to draw actionable insights for healthcare stakeholders.
+
+---
+
+## 🔗 Links
+
+- **📈 View Dashboard**: [Tableau Public](https://public.tableau.com/views/Sahil_Kishor_Tableau_Project_Healthcare_Analysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- **👨‍💼 LinkedIn**: [Sahil Kishor](https://www.linkedin.com/in/sahil-kishor)
+- **📧 Email**: kishorsahil555@gmail.com
+
+---
+
+## 📷 Screenshots
+
+_Add 2–3 screenshots of your Tableau dashboards here for visual appeal (e.g., upload PNGs to your repo and use the following format):_
 
 ```md
-![Dashboard Preview](images/dark_dashboard1.png)
-![Trend Forecast](images/dark_forecast.png)
+![Healthcare Dashboard](images/dashboard_overview.png)
+![Time Series Forecasting](images/forecasting_dashboard.png)
