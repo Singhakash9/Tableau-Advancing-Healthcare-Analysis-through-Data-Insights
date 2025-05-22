@@ -46,25 +46,25 @@ This project aims to harness Tableau's powerful visualization and analytical cap
 
 ## Key Analyses & Features
 
-**Stay Duration vs Recovery Rating**  
+- **Stay Duration vs Recovery Rating**  
 Explored correlation to measure treatment success.
 
-**Patient Clustering**  
+- **Patient Clustering**  
 Grouped patients by treatment and recovery patterns.
 
-**Prescription Intelligence**  
+- **Prescription Intelligence**  
 Identified most prescribed medications by diagnosis.
 
-**Hospital Efficiency Metrics**  
+- **Hospital Efficiency Metrics**  
 Analyzed stay duration, recovery rating, and costs.
 
-**Admission Trends**  
+- **Admission Trends**  
 Custom date parsing to reveal busiest times.
 
-**Dynamic Filtering**  
+- **Dynamic Filtering**  
 Filter patients by gender, age, and blood type.
 
-**Time-Series Forecasting**  
+- **Time-Series Forecasting**  
 Projected diagnosis-wise admissions for next 6 months.
 
 ---
