@@ -1,13 +1,8 @@
-# 🏥 Healthcare Analysis Using Tableau
-
-![Tableau](https://img.shields.io/badge/Built%20With-Tableau-blue?style=flat-square)  
-📊 **Author**: [Sahil Kishor](https://www.linkedin.com/in/akash-singh-979745147))  
-📧 **Contact**: akash.singh@georgebrown.ca  
-🔗 **View Dashboard**: [Tableau Public Link](https://public.tableau.com/views/Sahil_Kishor_Tableau_Project_Healthcare_Analysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+# Healthcare Analysis Using Tableau
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 This project aims to harness Tableau's powerful visualization and analytical capabilities to transform raw healthcare datasets into meaningful insights. Through calculated fields, data modeling, and advanced visual storytelling, the goal is to:
 
@@ -17,14 +12,14 @@ This project aims to harness Tableau's powerful visualization and analytical cap
 
 ---
 
-## 📁 Data Sources
+## Data Sources
 
 | Dataset | Description |
 |---------|-------------|
 | **HealthcareDataset1** | Patient-level information including ID, demographics, medical history, billing, and prescriptions. |
 | **HealthcareDataset2** | Hospital and treatment-specific data including doctor name, room assignment, treatment cost, and recovery ratings. |
 
-### 🔍 HealthcareDataset1 Fields
+### HealthcareDataset1 Fields
 - **PatientID**: Unique patient identifier *(Primary Key)*  
 - **PatientName**: Full name of the patient  
 - **Age**: Age in years  
@@ -37,7 +32,7 @@ This project aims to harness Tableau's powerful visualization and analytical cap
 - **TotalBill**: Total billed amount  
 - **Full Prescription Details**: Includes medications, dosages, frequency, and duration  
 
-### 🏥 HealthcareDataset2 Fields
+### HealthcareDataset2 Fields
 - **PatientID**: Foreign Key linking to HealthcareDataset1  
 - **Hospital**: Name of treating hospital  
 - **DoctorName**: Attending physician  
@@ -124,10 +119,10 @@ This project demonstrates the impact of data visualization in the healthcare sec
 
 ---
 
-## 🔗 Links
+## Links
 
-- **📈 View Dashboard**: [Tableau Public](https://public.tableau.com/views/Sahil_Kishor_Tableau_Project_Healthcare_Analysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- **👨‍💼 LinkedIn**: https://www.linkedin.com/in/akash-singh-979745147
-- **📧 Email**: akash.singh@georgebrown.ca
+- ** View Dashboard**: [Tableau Public](https://public.tableau.com/views/Sahil_Kishor_Tableau_Project_Healthcare_Analysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- ** LinkedIn**: https://www.linkedin.com/in/akash-singh-979745147
+- ** Email**: akash.singh@georgebrown.ca
 
 ---
