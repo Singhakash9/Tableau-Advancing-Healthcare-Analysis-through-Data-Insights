@@ -1,8 +1,8 @@
 # 🏥 Healthcare Analysis Using Tableau
 
 ![Tableau](https://img.shields.io/badge/Built%20With-Tableau-blue?style=flat-square)  
-📊 **Author**: [Sahil Kishor](https://www.linkedin.com/in/sahil-kishor)  
-📧 **Contact**: kishorsahil555@gmail.com  
+📊 **Author**: [Sahil Kishor](https://www.linkedin.com/in/akash-singh-979745147))  
+📧 **Contact**: akash.singh@georgebrown.ca  
 🔗 **View Dashboard**: [Tableau Public Link](https://public.tableau.com/views/Sahil_Kishor_Tableau_Project_Healthcare_Analysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
@@ -19,48 +19,62 @@ This project aims to harness Tableau's powerful visualization and analytical cap
 
 ## 📁 Data Sources
 
-### **1. HealthcareDataset1**
-Contains patient-level information:
-- `PatientID` (Primary Key)
-- `PatientName`, `Age`, `Gender`, `BloodType`
-- `Diagnosis`, `Treatment`
-- `AdmissionDate`, `DischargeDate`
-- `TotalBill`, `Full Prescription Details`
+| Dataset | Description |
+|---------|-------------|
+| **HealthcareDataset1** | Patient-level information including ID, demographics, medical history, billing, and prescriptions. |
+| **HealthcareDataset2** | Hospital and treatment-specific data including doctor name, room assignment, treatment cost, and recovery ratings. |
 
-### **2. HealthcareDataset2**
-Additional treatment and hospital details:
-- `PatientID` (Foreign Key)
-- `Hospital`, `DoctorName`, `RoomNumber`
-- `DailyCost`, `TreatmentType`, `RecoveryRating`
+### 🔍 HealthcareDataset1 Fields
+- **PatientID**: Unique patient identifier *(Primary Key)*  
+- **PatientName**: Full name of the patient  
+- **Age**: Age in years  
+- **Gender**: Gender identity  
+- **BloodType**: Blood group (e.g., A+, O-)  
+- **Diagnosis**: Diagnosed condition  
+- **Treatment**: Treatment provided  
+- **AdmissionDate**: Date of hospital admission  
+- **DischargeDate**: Date of hospital discharge  
+- **TotalBill**: Total billed amount  
+- **Full Prescription Details**: Includes medications, dosages, frequency, and duration  
+
+### 🏥 HealthcareDataset2 Fields
+- **PatientID**: Foreign Key linking to HealthcareDataset1  
+- **Hospital**: Name of treating hospital  
+- **DoctorName**: Attending physician  
+- **RoomNumber**: Room assigned during stay  
+- **DailyCost**: Cost per day of treatment  
+- **TreatmentType**: Category/type of treatment  
+- **RecoveryRating**: Outcome score (out of 10)  
+
 
 ---
 
-## 📌 Key Analyses & Features
+## Key Analyses & Features
 
-✅ **Stay Duration vs Recovery Rating**  
+**Stay Duration vs Recovery Rating**  
 Explored correlation to measure treatment success.
 
-✅ **Patient Clustering**  
+**Patient Clustering**  
 Grouped patients by treatment and recovery patterns.
 
-✅ **Prescription Intelligence**  
+**Prescription Intelligence**  
 Identified most prescribed medications by diagnosis.
 
-✅ **Hospital Efficiency Metrics**  
+**Hospital Efficiency Metrics**  
 Analyzed stay duration, recovery rating, and costs.
 
-✅ **Admission Trends**  
+**Admission Trends**  
 Custom date parsing to reveal busiest times.
 
-✅ **Dynamic Filtering**  
+**Dynamic Filtering**  
 Filter patients by gender, age, and blood type.
 
-✅ **Time-Series Forecasting**  
+**Time-Series Forecasting**  
 Projected diagnosis-wise admissions for next 6 months.
 
 ---
 
-## 📊 Dashboards Developed
+## Dashboards Developed
 
 1. **Comprehensive Healthcare Overview**  
    _TB Healthcare Dashboard_
@@ -76,35 +90,35 @@ Projected diagnosis-wise admissions for next 6 months.
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
-- 👩‍⚕️ **Patient Gender Distribution**:  
+- **Patient Gender Distribution**:  
   337 females, 329 males, 334 others over 3 years.
 
-- 📈 **Diabetes Recovery**:  
+- **Diabetes Recovery**:  
   Notable improvements in recovery ratings.
 
-- ⏳ **Admission Forecast**:  
+- **Admission Forecast**:  
   Time-series models predict diagnosis trends.
 
-- 🧑‍⚕️ **Top Doctor**:  
+- **Top Doctor**:  
   Dr. David Moore treated the highest number of patients.
 
-- 💰 **Costliest Hospital**:  
+- **Costliest Hospital**:  
   Cedar Senai Clinic, followed by Green Valley Medical Center.
 
-- 🌟 **Best Recovery Facility**:  
+- **Best Recovery Facility**:  
   Maple Groove Health Facility ranks #1.
 
-- 🔬 **Specialist Highlight**:  
+- **Specialist Highlight**:  
   Dr. Elizabeth Davis (Cedar Senai) excels in diabetes treatment.
 
-- 🧠 **Mental Therapy Trends**:  
+- **Mental Therapy Trends**:  
   Increasing patient preference over the years.
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates the impact of data visualization in the healthcare sector. From understanding patient behavior to evaluating hospital performance, Tableau dashboards offer a user-friendly interface to draw actionable insights for healthcare stakeholders.
 
@@ -113,15 +127,7 @@ This project demonstrates the impact of data visualization in the healthcare sec
 ## 🔗 Links
 
 - **📈 View Dashboard**: [Tableau Public](https://public.tableau.com/views/Sahil_Kishor_Tableau_Project_Healthcare_Analysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- **👨‍💼 LinkedIn**: [Sahil Kishor](https://www.linkedin.com/in/sahil-kishor)
-- **📧 Email**: kishorsahil555@gmail.com
+- **👨‍💼 LinkedIn**: https://www.linkedin.com/in/akash-singh-979745147
+- **📧 Email**: akash.singh@georgebrown.ca
 
 ---
-
-## 📷 Screenshots
-
-_Add 2–3 screenshots of your Tableau dashboards here for visual appeal (e.g., upload PNGs to your repo and use the following format):_
-
-```md
-![Healthcare Dashboard](images/dashboard_overview.png)
-![Time Series Forecasting](images/forecasting_dashboard.png)
